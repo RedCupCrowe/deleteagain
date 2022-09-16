@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'azuredbfridaydelete'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_21FC1A70AB394946B1F4F862BE0DA1C6 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CE85126C2B57401AA3094CB6AC8C0A8F }}
           package: '*.jar'
